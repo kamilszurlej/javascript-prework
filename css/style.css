@@ -1,0 +1,36 @@
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+body {
+    color: #000;
+}
+
+button {
+    padding: 12px 16px;
+    background-color: #eee;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    min-width: 128px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.container, #messages, #buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    gap: 16px;
+    max-width: 500px;
+    margin: 32px auto;
+    text-align: center;
+}
+
+#messages, #buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
