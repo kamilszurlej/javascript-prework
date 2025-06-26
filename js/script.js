@@ -1,14 +1,13 @@
-var argButtonName, buttonRock, buttonPaper, buttonScissors, resultPc, resultUser, resultPcScore, resultUserScore;
+const buttonRock = document.getElementById('button-rock'), 
+    buttonPaper = document.getElementById('button-paper'), 
+    buttonScissors = document.getElementById('button-scissors'), 
+    resultPc = document.getElementById('result-pc'), 
+    resultUser = document.getElementById('result-user')
+;
 
-buttonRock = document.getElementById('button-rock');
-buttonPaper = document.getElementById('button-paper');
-buttonScissors = document.getElementById('button-scissors');
-
-resultPc = document.getElementById('result-pc');
-resultUser = document.getElementById('result-user');
-
-resultPcScore = 0;
-resultUserScore = 0;
+let resultPcScore = 0, 
+    resultUserScore = 0
+;
 
 function buttonClicked(argButtonName) {
     clearMessages();
